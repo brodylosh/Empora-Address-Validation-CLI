@@ -1,0 +1,11 @@
+require 'pry'
+require 'require_all'
+require 'colorize'
+require 'dotenv/load'
+require 'csv'
+require 'smartystreets_ruby_sdk/static_credentials'
+require 'smartystreets_ruby_sdk/client_builder'
+require 'smartystreets_ruby_sdk/batch'
+require 'smartystreets_ruby_sdk/us_street/lookup'
+
+require_all 'lib'
